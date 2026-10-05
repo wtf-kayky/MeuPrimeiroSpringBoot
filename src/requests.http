@@ -1,0 +1,27 @@
+POST http://localhost:8080/api/produtos
+Content-Type: application/json
+
+{
+  "nome": "Teclado",
+  "preco": 150.00
+}
+### Listar produtos
+GET http://localhost:8080/api/produtos
+
+
+### Buscar produto
+GET http://localhost:8080/api/produtos/1
+
+
+### Inserir produto
+POST http://localhost:8080/api/produtos
+Content-Type: application/json
+
+{
+  "nome": "Teclado",
+  "preco": 150.00
+}
+
+
+### Deletar produto
+DELETE http://localhost:8080/api/produtos/1
