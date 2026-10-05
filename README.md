@@ -1,45 +1,39 @@
-{
-  "realm": "meu-primeiro-springboot",
-  "enabled": true,
-  "displayName": "Meu Primeiro Spring Boot",
-  "roles": {
-    "realm": [
-      {
-        "name": "USER",
-        "description": "Usuário comum da API"
-      },
-      {
-        "name": "ADMIN",
-        "description": "Administrador da API"
-      }
-    ]
-  },
-  "clients": [
-    {
-      "clientId": "meu-primeiro-springboot-api",
-      "name": "Meu Primeiro Spring Boot API",
-      "enabled": true,
-      "protocol": "openid-connect",
-      "publicClient": true,
-      "directAccessGrantsEnabled": true
-    }
-  ],
-  "users": [
-    {
-      "username": "kayke",
-      "enabled": true,
-      "firstName": "Kayke",
-      "lastName": "Vieira",
-      "credentials": [
-        {
-          "type": "password",
-          "value": "123456",
-          "temporary": false
-        }
-      ],
-      "realmRoles": [
-        "USER"
-      ]
-    }
-  ]
-}
+# Meu Primeiro Spring Boot 🚀
+
+Projeto desenvolvido durante meus estudos de **Java e Spring Boot**, com o objetivo de aprender a criação de APIs REST, persistência de dados, autenticação e segurança.
+
+## 🛠️ Tecnologias utilizadas
+
+- Java
+- Spring Boot
+- Spring Security
+- Spring Data JPA
+- PostgreSQL
+- Maven
+- JWT
+- Postman
+- Keycloak
+
+## 📂 Estrutura do projeto
+
+O projeto possui funcionalidades relacionadas a:
+
+- Cadastro e consulta de produtos
+- Persistência de dados com PostgreSQL
+- Tratamento de exceções
+- Cadastro de usuários
+- Login
+- Autenticação com JWT
+- Configuração de segurança com Spring Security
+- Integração com Keycloak
+
+## 🔐 Autenticação
+
+O projeto trabalha com autenticação e autorização.
+
+### Usuário de teste
+
+```text
+Username: kayke
+Password: 123456
+Role: USER
